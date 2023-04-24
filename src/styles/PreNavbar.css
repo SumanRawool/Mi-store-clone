@@ -1,0 +1,14 @@
+.preNav {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: white;
+}
+.preNav > div {
+  padding: 0.5vmax 4vmax;
+}
+.preNav > div > span {
+  color: rgba(180, 180, 180, 0.644);
+  font-size: 0.8vmax;
+  font-weight: 100;
+}
