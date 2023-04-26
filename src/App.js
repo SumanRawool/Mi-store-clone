@@ -9,6 +9,7 @@ import Heading from "./components/Heading.js";
 import StarProduct from "./components/StarProduct.js";
 import HotAccessoriesMenu from "./components/HotAccessoriesMenu.js";
 import HotAccessories from "./components/HotAccessories.js";
+import ProductReviews from "./components/ProductReviews.js";
 
 function App() {
   return (
@@ -21,14 +22,6 @@ function App() {
       <StarProduct starProduct={data.starProduct} />
       <Heading text="HOT ACCESSORIES" />
       <HotAccessoriesMenu />
-      {/* <Routes>
-        <Route exact path="/music">
-          <HotAccessories
-            music={data.hotAccessories.music}
-            musicCover={data.hotAccessoriesCover.music}
-          />
-        </Route>
-      </Routes> */}
       <Routes>
         <Route
           exact
@@ -79,6 +72,8 @@ function App() {
           }
         />
       </Routes>
+      <Heading text="PRODUCT REVIEWS" />
+      <ProductReviews productReviews={data.productReviews} />
     </Router>
   );
 }
