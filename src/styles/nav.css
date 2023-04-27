@@ -42,6 +42,7 @@
 }
 .navlinks:hover {
   color: orangered;
+  text-decoration: none;
 }
 #logoImage {
   transition: all 0.2s;
